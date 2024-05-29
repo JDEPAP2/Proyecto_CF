@@ -1,0 +1,150 @@
+{
+    "definicion": "Un Sistema Multimedia emplea múltiples medios de expresión, bien sea analógicos o digitales, incluyendo texto, sonido, gráfico, imagen, animación y video. Es la integración de contenidos, telecomunicaciones, hardware y software para la comunicación o presentación de información.",
+    "image": "multimedia.png",
+    "parts": {
+        "hardware": {
+            "image": "hardware.png",
+            "definicion": "El hardware es la parte tangible de un sistema multimedia, compuesta por componentes eléctricos, electrónicos, mecánicos y electromecánicos. Es responsable de procesar, almacenar y presentar la información. Ejemplos incluyen el microprocesador, la memoria RAM, los discos duros, las tarjetas gráficas y periféricos como monitores, teclados y ratones.",
+            "questions": [
+                {
+                    "nun": "¿Qué componente del hardware es responsable del procesamiento de información en un sistema multimedia?",
+                    "options": [
+                        "Monitor",
+                        "Teclado",
+                        "Microprocesador",
+                        "Impresora"
+                    ],
+                    "answer": 2
+                },
+                {
+                    "nun": "¿Cuál de los siguientes es un componente electromecánico en un sistema multimedia?",
+                    "options": [
+                        "Tarjeta gráfica",
+                        "Altavoz",
+                        "Disco duro",
+                        "Mouse"
+                    ],
+                    "answer": 3
+                },
+                {
+                    "nun": "¿Cuál es la función principal de la memoria RAM en un sistema multimedia?",
+                    "options": [
+                        "Almacenar datos permanentemente",
+                        "Procesar gráficos",
+                        "Guardar datos temporalmente para acceso rápido",
+                        "Imprimir documentos"
+                    ],
+                    "answer": 2
+                }
+            ]
+        },
+        "software": {
+            "image": "software.png",
+            "definicion": "El software es la parte intangible de un sistema multimedia, compuesta por componentes lógicos que posibilitan la realización de tareas específicas mediante algoritmos. Incluye el sistema operativo, que gestiona los recursos del hardware, y las aplicaciones que permiten al usuario realizar tareas específicas como edición de video, diseño gráfico, y navegación web.",
+            "questions": [
+                {
+                    "nun": "¿Qué tipo de software es responsable de permitir la realización de tareas específicas mediante algoritmos?",
+                    "options": [
+                        "Hardware",
+                        "Middleware",
+                        "Firmware",
+                        "Software de aplicación"
+                    ],
+                    "answer": 3
+                },
+                {
+                    "nun": "¿Cuál es un ejemplo de un sistema operativo que se puede usar en un sistema multimedia?",
+                    "options": [
+                        "Windows 10",
+                        "HDMI",
+                        "Intel i7",
+                        "USB"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "nun": "¿Qué tipo de software actúa como intermediario entre el sistema operativo y las aplicaciones para gestionar datos y recursos?",
+                    "options": [
+                        "Firmware",
+                        "Middleware",
+                        "Aplicaciones",
+                        "Hardware"
+                    ],
+                    "answer": 1
+                }
+            ]
+        },
+        "contenidos": {
+            "image": "contenidos.png",
+            "definicion": "Los contenidos en un sistema multimedia incluyen texto, sonido, gráfico, imagen, animación y video. Estos elementos representan la información que se desea comunicar o presentar. Los contenidos pueden ser estáticos, como texto e imágenes, o dinámicos, como animaciones y videos. Son la esencia de la experiencia multimedia y son manipulados y presentados mediante el hardware y el software del sistema.",
+            "questions": [
+                {
+                    "nun": "¿Cuál de los siguientes es un medio de expresión utilizado en sistemas multimedia?",
+                    "options": [
+                        "Sensor",
+                        "Animación",
+                        "Firmware",
+                        "Microcontrolador"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "nun": "En un sistema multimedia, ¿cómo se denomina la información representada por texto, sonido, gráfico, imagen, animación y video?",
+                    "options": [
+                        "Hardware",
+                        "Software",
+                        "Contenidos",
+                        "Telecomunicaciones"
+                    ],
+                    "answer": 2
+                },
+                {
+                    "nun": "¿Cuál de los siguientes no es considerado un contenido en un sistema multimedia?",
+                    "options": [
+                        "Texto",
+                        "Sonido",
+                        "Microprocesador",
+                        "Video"
+                    ],
+                    "answer": 2
+                }
+            ]
+        },
+        "telecomunicaciones": {
+            "image": "telecomunicaciones.png",
+            "definicion": "Las telecomunicaciones en un sistema multimedia son responsables de la transmisión de contenidos entre diferentes locaciones mediante la integración de hardware y software. Utilizan protocolos y tecnologías como WiFi, Bluetooth, y redes móviles para permitir la comunicación de datos. Las telecomunicaciones son esenciales para la conectividad y el intercambio de información en tiempo real o diferido entre dispositivos y sistemas.",
+            "questions": [
+                {
+                    "nun": "¿Qué protocolo de telecomunicaciones es comúnmente usado para redes inalámbricas en sistemas multimedia?",
+                    "options": [
+                        "TCP/IP",
+                        "FTP",
+                        "IEEE 802.11 (WiFi)",
+                        "SMTP"
+                    ],
+                    "answer": 2
+                },
+                {
+                    "nun": "¿Cuál es el objetivo principal de las telecomunicaciones en un sistema multimedia?",
+                    "options": [
+                        "Procesar información",
+                        "Almacenar datos",
+                        "Transmitir contenidos entre diferentes locaciones",
+                        "Ejecutar aplicaciones"
+                    ],
+                    "answer": 2
+                },
+                {
+                    "nun": "¿Qué tecnología se utiliza comúnmente para la comunicación a corta distancia entre dispositivos en un sistema multimedia?",
+                    "options": [
+                        "Ethernet",
+                        "Bluetooth",
+                        "HDMI",
+                        "NFC"
+                    ],
+                    "answer": 1
+                }
+            ]
+        }
+    }
+}
