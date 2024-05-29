@@ -1,9 +1,9 @@
 {
     "definicion": "Un Sistema Multimedia emplea múltiples medios de expresión, bien sea analógicos o digitales, incluyendo texto, sonido, gráfico, imagen, animación y video. Es la integración de contenidos, telecomunicaciones, hardware y software para la comunicación o presentación de información.",
-    "image": "multimedia.png",
+    "image": "multimedia.jpg",
     "parts": {
         "hardware": {
-            "image": "hardware.png",
+            "image": "hardware.jpg",
             "definicion": "El hardware es la parte tangible de un sistema multimedia, compuesta por componentes eléctricos, electrónicos, mecánicos y electromecánicos. Es responsable de procesar, almacenar y presentar la información. Ejemplos incluyen el microprocesador, la memoria RAM, los discos duros, las tarjetas gráficas y periféricos como monitores, teclados y ratones.",
             "questions": [
                 {
@@ -39,7 +39,7 @@
             ]
         },
         "software": {
-            "image": "software.png",
+            "image": "software.jpg",
             "definicion": "El software es la parte intangible de un sistema multimedia, compuesta por componentes lógicos que posibilitan la realización de tareas específicas mediante algoritmos. Incluye el sistema operativo, que gestiona los recursos del hardware, y las aplicaciones que permiten al usuario realizar tareas específicas como edición de video, diseño gráfico, y navegación web.",
             "questions": [
                 {
@@ -75,7 +75,7 @@
             ]
         },
         "contenidos": {
-            "image": "contenidos.png",
+            "image": "contenidos.jpg",
             "definicion": "Los contenidos en un sistema multimedia incluyen texto, sonido, gráfico, imagen, animación y video. Estos elementos representan la información que se desea comunicar o presentar. Los contenidos pueden ser estáticos, como texto e imágenes, o dinámicos, como animaciones y videos. Son la esencia de la experiencia multimedia y son manipulados y presentados mediante el hardware y el software del sistema.",
             "questions": [
                 {
@@ -111,7 +111,7 @@
             ]
         },
         "telecomunicaciones": {
-            "image": "telecomunicaciones.png",
+            "image": "telecomunicaciones.jpg",
             "definicion": "Las telecomunicaciones en un sistema multimedia son responsables de la transmisión de contenidos entre diferentes locaciones mediante la integración de hardware y software. Utilizan protocolos y tecnologías como WiFi, Bluetooth, y redes móviles para permitir la comunicación de datos. Las telecomunicaciones son esenciales para la conectividad y el intercambio de información en tiempo real o diferido entre dispositivos y sistemas.",
             "questions": [
                 {

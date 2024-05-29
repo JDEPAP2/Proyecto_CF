@@ -28,7 +28,23 @@ class InfoModal extends ConsumerWidget{
         shrinkWrap: true,
         physics: const BouncingScrollPhysics(),
         children: [
-          Center(child: Text(name, style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),))
+          Center(
+            child: Container(
+            height: 200,
+            width: 200,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                fit: BoxFit.cover,
+                image: Image.asset("assets/images/" + data["parts"][name.toLowerCase()]["image"]).image),
+              borderRadius: BorderRadius.circular(200)
+            ),
+          )),
+          SizedBox(height: 20),
+          Center(child: Text(name, style: TextStyle(color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),)),
+          Container(
+            padding: EdgeInsets.all(10),
+            alignment: Alignment.center,
+            child: Text(data["parts"][name.toLowerCase()]["definicion"], style: TextStyle(color: Colors.white, fontSize: 15,),textAlign: TextAlign.justify,)),
         ]))));
   }
 }

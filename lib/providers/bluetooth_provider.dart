@@ -61,6 +61,20 @@ class BluetoothDeviceController extends StateNotifier<AsyncValue<BluetoothDevice
     _discoveryTimer?.cancel();
   }
 
+  int getInt(int i){
+    switch(i){
+      case 1: //2
+        return 0;
+      case 2: //0
+        return 1;
+      case 3: //1
+        return 2;
+      case 4: //3
+        return 3;
+      default: //Sin Reconocer
+        return 0;
+    }
+  }
 
   Future<void> readCharacteristcs() async{
     if(state.hasValue){
@@ -73,7 +87,8 @@ class BluetoothDeviceController extends StateNotifier<AsyncValue<BluetoothDevice
             final characteristic = service.first.characteristics.where((charc) => charc.characteristicUuid == Guid('2A57'));
             if (characteristic.isNotEmpty) {
               var value = await characteristic.first.read();
-              ref.read(classProvider.notifier).setValue(value.first);
+              
+              ref.read(classProvider.notifier).setValue(getInt(value.first));
               ref.read(bluetoothStateProvider.notifier).state = false;
             }
           }
@@ -98,7 +113,7 @@ class BluetoothDeviceController extends StateNotifier<AsyncValue<BluetoothDevice
             final characteristic = service.first.characteristics.where((charc) => charc.characteristicUuid == Guid('2A58'));
             if (characteristic.isNotEmpty) {
               await characteristic.first.write([1]);
-              await Future.delayed(Duration(seconds: 5));
+              await Future.delayed(Duration(seconds: 1));
               await readCharacteristcs();
               await characteristic.first.write([0]);
             }

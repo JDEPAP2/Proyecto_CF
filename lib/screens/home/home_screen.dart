@@ -108,16 +108,25 @@ class HomeScreenState extends ConsumerState<HomeScreen> {
       ],
     ),
     ),
-    SizedBox(height: 200),
+    SizedBox(height: 10),
+    Center(
+      child: Container(
+        height: 150,
+        decoration: BoxDecoration(
+          image: DecorationImage(image: Image.asset("assets/images/Bg.png").image)
+        ),
+      ),
+    ),
+    SizedBox(height: 30),
     Center(
         child: deviceblueProvider.value != null?InkWell(
         child: Container(
           padding: EdgeInsets.all(15),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
-            color: Colors.black
+            color: Colors.green
           ),
-          child: Text("Probar", style: TextStyle(color: Colors.white,
+          child: Text("Lanzar", style: TextStyle(color: Colors.white,
           fontWeight: FontWeight.bold, fontSize: 20),)),
         onTap: (){
           Navigator.of(context).pushNamed(ClassScreen.routeName);

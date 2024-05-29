@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:multi_dado/screens/class/class_screen.dart';
 import 'package:multi_dado/screens/home/home_screen.dart';
 import 'package:multi_dado/screens/init_screen.dart';
+import 'package:multi_dado/screens/responses/response_screen.dart';
 import 'package:multi_dado/screens/tutorials/tutorial_screen.dart';
 
 final Map<String, WidgetBuilder> routes = {

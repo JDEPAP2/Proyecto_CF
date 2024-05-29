@@ -1,18 +1,20 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
 
 class Multiclass{
   static Future<Map<String,dynamic>> getData() async {
-  var input = await File("data.json").readAsString();
-  return jsonDecode(input);
+    String jsonString = await rootBundle.loadString("assets/data.json");
+    return jsonDecode(jsonString);
   }
 
   static Color getColor(int i){
-    return  [Color.fromARGB(255, 255, 33, 18),
-            Color.fromARGB(255, 12, 146, 255),
-            Color.fromARGB(255, 16, 172, 22), 
-            Color.fromARGB(255, 221, 191, 23)][i];
+    return  [Color.fromARGB(255, 138, 10, 1),
+            Color.fromARGB(255, 2, 39, 139),
+            Color.fromARGB(255, 2, 102, 5), 
+            Color.fromARGB(255, 133, 113, 0)][i];
   }
 
   static LinearGradient getGradient(int i){
